@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 remote_url: 127.0.0.1
+=======
+remote_url: 127.0.0.1:4723/wd/hub
+deviceName": Test Device
+platformVersion": "13"
+automationName": UiAutomator2
+platformName": android
+>>>>>>> upstream/main
