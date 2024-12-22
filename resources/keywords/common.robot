@@ -1,6 +1,6 @@
 *** Keywords ***
 Open website with specific option
-    [Arguments]     ${url}      ${browser}=${common['browser']['googlechrome']}
+    [Arguments]     ${url}      ${browser}=${web['browser']['googlechrome']}
     SeleniumLibrary.Open browser       ${url}     ${browser}
 
 Open application with specific option

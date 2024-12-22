@@ -1,6 +1,6 @@
 *** Settings ***
 Resource            ${CURDIR}/../resources/import/import.robot
-Suite setup         common.Open website with specific option       ${common['url']['google']}
+Suite setup         common.Open website with specific option       ${web['url']['google']}
 Suite Teardown      SeleniumLibrary.Close all browsers
 
 *** Test Cases ***
@@ -12,7 +12,7 @@ TC-00-1 Open website
 
 TC-00-2 Open website and input text to search_bar
     [Tags]      test-2
-    common.Open website with specific option       ${common['url']['google']}
+    common.Open website with specific option       ${web['url']['google']}
     SeleniumLibrary.Element should be visible       xpath=//img[@alt="Google"]
     common.Input text when ready
     
