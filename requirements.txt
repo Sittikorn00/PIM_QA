@@ -3,7 +3,6 @@ PyYAML==6.0.2
 robotframework==5.0.0
 robotframework-appiumlibrary==1.6.3
 robotframework-csvlibrary==0.0.5
-robotframework-databaselibrary==1.4.4
 robotframework-datadriver==1.11.0
 robotframework-debuglibrary==2.5.0
 robotframework-pabot==2.18.0

@@ -6,5 +6,4 @@ Verify image logo should be displayed
 Input text in search bar
     [Arguments]     ${text}
     SeleniumLibrary.Wait until element is visible       ${locator['img_logo']}
-   
-    ${text}
+    common.Input text when ready        ${locator['img_logo']}      ${text}

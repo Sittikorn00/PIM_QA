@@ -1,0 +1,7 @@
+web:
+  url: 
+    google: https://www.google.co.uk/
+    facebook: https://www.facebook.com
+  browser: 
+    googlechrome: gc
+    firefox: ff
