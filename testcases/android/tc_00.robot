@@ -7,4 +7,4 @@ Test Teardown       common.Common teardown
 *** Test Cases ***
 Open App on Emulator
     [Tags]      android
-    Open application with specific option
+    common.Open test with specific platform
